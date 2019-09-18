@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--Tiled2Unity generated xml data-->
+<!--Do not modify by hand-->
+<!--Last exported: 7/7/2018 5:44:27 PM-->
+<Tiled2Unity version="1.0.13.2">
+  <AssignMaterial mesh="house_bathroom_mesh_0001" material="roguelike_pack" />
+  <AssignMaterial mesh="house_bathroom_mesh_0002" material="roguelike_Indoor" />
+  <AssignMaterial mesh="house_bathroom_mesh_0003" material="roguelike_my_tiles" />
+  <AssignMaterial mesh="house_bathroom_mesh_0004" material="roguelike_my_tiles" />
+  <Prefab name="house_bathroom" orientation="Orthogonal" staggerAxis="Y" staggerIndex="Odd" hexSideLength="0" numLayers="3" numTilesWide="3" numTilesHigh="5" tileWidth="16" tileHeight="16" exportScale="1" mapWidthInPixels="48" mapHeightInPixels="80" backgroundColor="#808080">
+    <GameObject name="Background" x="0" y="0" z="0">
+      <TileLayer offsetX="0" offsetY="0" />
+      <GameObject name="roguelike_pack" x="0" y="0" mesh="house_bathroom_mesh_0001" sortingLayerName="" sortingOrder="0" opacity="1" />
+    </GameObject>
+    <GameObject name="Background 2" x="0" y="0" z="0">
+      <TileLayer offsetX="0" offsetY="0" />
+      <GameObject name="roguelike_Indoor" x="0" y="0" mesh="house_bathroom_mesh_0002" sortingLayerName="" sortingOrder="1" opacity="1" />
+      <GameObject name="roguelike_my_tiles" x="0" y="0" mesh="house_bathroom_mesh_0003" sortingLayerName="" sortingOrder="1" opacity="1" />
+      <GameObject name="Collision">
+        <PolygonCollider2D>
+          <Path>48,-32 38,-32 38,-48 48,-48</Path>
+          <Path>44,-68 36,-68 36,-77 44,-77</Path>
+        </PolygonCollider2D>
+      </GameObject>
+    </GameObject>
+    <GameObject name="Objects" x="0" y="0" z="0">
+      <TileLayer offsetX="0" offsetY="0" />
+      <GameObject name="roguelike_my_tiles" x="0" y="0" mesh="house_bathroom_mesh_0004" sortingLayerName="" sortingOrder="2" opacity="1" />
+    </GameObject>
+    <GameObject name="Object Layer 1" x="0" y="0" z="0">
+      <ObjectLayer offsetX="0" offsetY="0" color="#ff808080" />
+      <GameObject name="RectangleObject" x="48" y="1" rotation="0" layer="">
+        <RectangleObjectComponent tmx-object-id="4" tmx-object-name="" tmx-object-type="" tmx-object-x="48" tmx-object-y="-1" tmx-object-width="1" tmx-object-height="81" tmx-object-rotation="0" />
+        <BoxCollider2D width="1" height="81" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="15" y="1" rotation="0" layer="">
+        <RectangleObjectComponent tmx-object-id="5" tmx-object-name="" tmx-object-type="" tmx-object-x="15" tmx-object-y="-1" tmx-object-width="33" tmx-object-height="1" tmx-object-rotation="0" />
+        <BoxCollider2D width="33" height="1" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="15" y="0" rotation="0" layer="">
+        <RectangleObjectComponent tmx-object-id="6" tmx-object-name="" tmx-object-type="" tmx-object-x="15" tmx-object-y="0" tmx-object-width="1" tmx-object-height="48" tmx-object-rotation="0" />
+        <BoxCollider2D width="1" height="48" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="15" y="-64" rotation="0" layer="">
+        <RectangleObjectComponent tmx-object-id="2" tmx-object-name="" tmx-object-type="" tmx-object-x="15" tmx-object-y="64" tmx-object-width="1" tmx-object-height="17" tmx-object-rotation="0" />
+        <BoxCollider2D width="1" height="17" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="16" y="-80" rotation="0" layer="">
+        <RectangleObjectComponent tmx-object-id="3" tmx-object-name="" tmx-object-type="" tmx-object-x="16" tmx-object-y="80" tmx-object-width="33" tmx-object-height="1" tmx-object-rotation="0" />
+        <BoxCollider2D width="33" height="1" />
+      </GameObject>
+    </GameObject>
+  </Prefab>
+  <ImportMesh filename="house_bathroom_mesh_0001.obj">IyBUaWxlZDJVbml0eSBnZW5lcmF0ZWQgZmlsZS4gRG8gbm90IG1vZGlmeSBieSBoYW5kLg0KIyBXYXZlZnJvbnQgZmlsZSBmb3IgJ2hvdXNlX2JhdGhyb29tX21lc2hfMDAwMS5vYmonDQoNCiMgVmVydGljZXMgKENvdW50ID0gNDQpDQp2IC0zMiAtMTYgMA0KdiAtNDggLTE2IDANCnYgLTQ4IDAgMA0KdiAtMzIgMCAwDQp2IC0xNiAtMTYgMA0KdiAtMzIgLTE2IDANCnYgLTMyIDAgMA0KdiAtMTYgMCAwDQp2IC0zMiAtMzIgMA0KdiAtNDggLTMyIDANCnYgLTQ4IC0xNiAwDQp2IC0zMiAtMTYgMA0KdiAtMTYgLTMyIDANCnYgLTMyIC0zMiAwDQp2IC0zMiAtMTYgMA0KdiAtMTYgLTE2IDANCnYgLTMyIC00OCAwDQp2IC00OCAtNDggMA0KdiAtNDggLTMyIDANCnYgLTMyIC0zMiAwDQp2IC0xNiAtNDggMA0KdiAtMzIgLTQ4IDANCnYgLTMyIC0zMiAwDQp2IC0xNiAtMzIgMA0KdiAtMzIgLTY0IDANCnYgLTQ4IC02NCAwDQp2IC00OCAtNDggMA0KdiAtMzIgLTQ4IDANCnYgLTE2IC02NCAwDQp2IC0zMiAtNjQgMA0KdiAtMzIgLTQ4IDANCnYgLTE2IC00OCAwDQp2IDAgLTY0IDANCnYgLTE2IC02NCAwDQp2IC0xNiAtNDggMA0KdiAwIC00OCAwDQp2IC0zMiAtODAgMA0KdiAtNDggLTgwIDANCnYgLTQ4IC02NCAwDQp2IC0zMiAtNjQgMA0KdiAtMTYgLTgwIDANCnYgLTMyIC04MCAwDQp2IC0zMiAtNjQgMA0KdiAtMTYgLTY0IDANCg0KIyBUZXh0dXJlIGNvb3JpZGluYXRlcyAoQ291bnQgPSAxNikNCnZ0IDAuNTYxOTgzNSAwLjI1ODU1NTENCnZ0IDAuNTc4NTEyNCAwLjI1ODU1NTENCnZ0IDAuNTc4NTEyNCAwLjI4ODk3MzQNCnZ0IDAuNTYxOTgzNSAwLjI4ODk3MzQNCnZ0IDAuNTYxOTgzNSAwLjIyNjIzNTcNCnZ0IDAuNTc4NTEyNCAwLjIyNjIzNTcNCnZ0IDAuNTc4NTEyNCAwLjI1NjY1NA0KdnQgMC41NjE5ODM1IDAuMjU2NjU0DQp2dCAwLjMxNjExNTcgMC4yNTg1NTUxDQp2dCAwLjMzMjY0NDYgMC4yNTg1NTUxDQp2dCAwLjMzMjY0NDYgMC4yODg5NzM0DQp2dCAwLjMxNjExNTcgMC4yODg5NzM0DQp2dCAwLjc5MDI4OTMgMC4xMjkyNzc2DQp2dCAwLjgwNjgxODIgMC4xMjkyNzc2DQp2dCAwLjgwNjgxODIgMC4xNTk2OTU4DQp2dCAwLjc5MDI4OTMgMC4xNTk2OTU4DQoNCiMgTm9ybWFsDQp2biAwIDAgLTENCg0KIyBNZXNoIGRlc2NyaXB0aW9uDQpnIGhvdXNlX2JhdGhyb29tX21lc2hfMDAwMQ0KDQojIEZhY2VzDQpmIDEvMS8xIDIvMi8xIDMvMy8xIDQvNC8xCmYgNS8xLzEgNi8yLzEgNy8zLzEgOC80LzEKZiA5LzUvMSAxMC82LzEgMTEvNy8xIDEyLzgvMQpmIDEzLzUvMSAxNC82LzEgMTUvNy8xIDE2LzgvMQpmIDE3LzkvMSAxOC8xMC8xIDE5LzExLzEgMjAvMTIvMQpmIDIxLzkvMSAyMi8xMC8xIDIzLzExLzEgMjQvMTIvMQpmIDI1LzkvMSAyNi8xMC8xIDI3LzExLzEgMjgvMTIvMQpmIDI5LzkvMSAzMC8xMC8xIDMxLzExLzEgMzIvMTIvMQpmIDMzLzEzLzEgMzQvMTQvMSAzNS8xNS8xIDM2LzE2LzEKZiAzNy85LzEgMzgvMTAvMSAzOS8xMS8xIDQwLzEyLzEKZiA0MS85LzEgNDIvMTAvMSA0My8xMS8xIDQ0LzEyLzEKDQo=</ImportMesh>
+  <ImportMesh filename="house_bathroom_mesh_0002.obj">IyBUaWxlZDJVbml0eSBnZW5lcmF0ZWQgZmlsZS4gRG8gbm90IG1vZGlmeSBieSBoYW5kLg0KIyBXYXZlZnJvbnQgZmlsZSBmb3IgJ2hvdXNlX2JhdGhyb29tX21lc2hfMDAwMi5vYmonDQoNCiMgVmVydGljZXMgKENvdW50ID0gMTIpDQp2IC0zMiAtMTYgMA0KdiAtNDggLTE2IDANCnYgLTQ4IDAgMA0KdiAtMzIgMCAwDQp2IC0xNiAtMTYgMA0KdiAtMzIgLTE2IDANCnYgLTMyIDAgMA0KdiAtMTYgMCAwDQp2IC0zMiAtODAgMA0KdiAtNDggLTgwIDANCnYgLTQ4IC02NCAwDQp2IC0zMiAtNjQgMA0KDQojIFRleHR1cmUgY29vcmlkaW5hdGVzIChDb3VudCA9IDEyKQ0KdnQgMC42Njk1ODQzIDAuMjc4Njg4NQ0KdnQgMC43MDQ1OTUyIDAuMjc4Njg4NQ0KdnQgMC43MDQ1OTUyIDAuMzMxMTQ3Ng0KdnQgMC42Njk1ODQzIDAuMzMxMTQ3Ng0KdnQgMC41OTUxODYgMC4yNzg2ODg1DQp2dCAwLjYzMDE5NjkgMC4yNzg2ODg1DQp2dCAwLjYzMDE5NjkgMC4zMzExNDc2DQp2dCAwLjU5NTE4NiAwLjMzMTE0NzYNCnZ0IDAuODE4MzgwOCAwLjcyNDU5MDINCnZ0IDAuODUzMzkxNyAwLjcyNDU5MDINCnZ0IDAuODUzMzkxNyAwLjc3NzA0OTINCnZ0IDAuODE4MzgwOCAwLjc3NzA0OTINCg0KIyBOb3JtYWwNCnZuIDAgMCAtMQ0KDQojIE1lc2ggZGVzY3JpcHRpb24NCmcgaG91c2VfYmF0aHJvb21fbWVzaF8wMDAyDQoNCiMgRmFjZXMNCmYgMS8xLzEgMi8yLzEgMy8zLzEgNC80LzEKZiA1LzUvMSA2LzYvMSA3LzcvMSA4LzgvMQpmIDkvOS8xIDEwLzEwLzEgMTEvMTEvMSAxMi8xMi8xCg0K</ImportMesh>
+  <ImportMesh filename="house_bathroom_mesh_0003.obj">IyBUaWxlZDJVbml0eSBnZW5lcmF0ZWQgZmlsZS4gRG8gbm90IG1vZGlmeSBieSBoYW5kLg0KIyBXYXZlZnJvbnQgZmlsZSBmb3IgJ2hvdXNlX2JhdGhyb29tX21lc2hfMDAwMy5vYmonDQoNCiMgVmVydGljZXMgKENvdW50ID0gMTIpDQp2IC0zMiAtNDggMA0KdiAtNDggLTQ4IDANCnYgLTQ4IC0zMiAwDQp2IC0zMiAtMzIgMA0KdiAtMTYgLTY0IDANCnYgLTMyIC02NCAwDQp2IC0zMiAtNDggMA0KdiAtMTYgLTQ4IDANCnYgLTE2IC04MCAwDQp2IC0zMiAtODAgMA0KdiAtMzIgLTY0IDANCnYgLTE2IC02NCAwDQoNCiMgVGV4dHVyZSBjb29yaWRpbmF0ZXMgKENvdW50ID0gMTIpDQp2dCAwLjMzMzMzMzMgMC41MDU4ODI0DQp2dCAwLjM2NDcwNTkgMC41MDU4ODI0DQp2dCAwLjM2NDcwNTkgMC42DQp2dCAwLjMzMzMzMzMgMC42DQp2dCAwLjAzMzMzMzM0IDAuMzA1ODgyMw0KdnQgMC4wNjQ3MDU4OSAwLjMwNTg4MjMNCnZ0IDAuMDY0NzA1ODkgMC40DQp2dCAwLjAzMzMzMzM0IDAuNA0KdnQgMC4wNjY2NjY2NyAwLjMwNTg4MjMNCnZ0IDAuMDk4MDM5MjIgMC4zMDU4ODIzDQp2dCAwLjA5ODAzOTIyIDAuNA0KdnQgMC4wNjY2NjY2NyAwLjQNCg0KIyBOb3JtYWwNCnZuIDAgMCAtMQ0KDQojIE1lc2ggZGVzY3JpcHRpb24NCmcgaG91c2VfYmF0aHJvb21fbWVzaF8wMDAzDQoNCiMgRmFjZXMNCmYgMS8xLzEgMi8yLzEgMy8zLzEgNC80LzEKZiA1LzUvMSA2LzYvMSA3LzcvMSA4LzgvMQpmIDkvOS8xIDEwLzEwLzEgMTEvMTEvMSAxMi8xMi8xCg0K</ImportMesh>
+  <ImportMesh filename="house_bathroom_mesh_0004.obj">IyBUaWxlZDJVbml0eSBnZW5lcmF0ZWQgZmlsZS4gRG8gbm90IG1vZGlmeSBieSBoYW5kLg0KIyBXYXZlZnJvbnQgZmlsZSBmb3IgJ2hvdXNlX2JhdGhyb29tX21lc2hfMDAwNC5vYmonDQoNCiMgVmVydGljZXMgKENvdW50ID0gNCkNCnYgLTMyIC02NCAwDQp2IC00OCAtNjQgMA0KdiAtNDggLTQ4IDANCnYgLTMyIC00OCAwDQoNCiMgVGV4dHVyZSBjb29yaWRpbmF0ZXMgKENvdW50ID0gNCkNCnZ0IDAuMzk4MDM5MiAwLjUwNTg4MjQNCnZ0IDAuMzk4MDM5MiAwLjYNCnZ0IDAuMzY2NjY2NyAwLjYNCnZ0IDAuMzY2NjY2NyAwLjUwNTg4MjQNCg0KIyBOb3JtYWwNCnZuIDAgMCAtMQ0KDQojIE1lc2ggZGVzY3JpcHRpb24NCmcgaG91c2VfYmF0aHJvb21fbWVzaF8wMDA0DQoNCiMgRmFjZXMNCmYgMS8xLzEgMi8yLzEgMy8zLzEgNC80LzEKDQo=</ImportMesh>
+  <InternalTexture assetPath="Assets/Art/roguelike_pack.png" materialName="roguelike_pack" />
+  <InternalTexture assetPath="Assets/Art/roguelike_Indoor.png" materialName="roguelike_Indoor" />
+  <InternalTexture assetPath="Assets/Art/roguelike_my_tiles.png" materialName="roguelike_my_tiles" />
+</Tiled2Unity>

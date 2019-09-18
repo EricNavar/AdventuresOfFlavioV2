@@ -1,0 +1,73 @@
+moveList = user.moveSet;
+private List<Button> = new List<Button>(5);
+private int first = 0;
+private Button upButton;
+private Button downButton;
+
+void Start()
+{
+	UpdateList();
+	CheckUpButton();
+	CheckDownButton();
+}
+
+private void ScrollUp()
+{
+	if (first > 0)
+	{
+		first --;
+		UpdateList();
+	}
+
+	CheckUpButton();
+}
+
+private void ScrollDown()
+{
+	if (first + 5 < moveList.Length)
+	{
+		first++;
+		UpdateList();
+	}
+
+	CheckDownButton();
+}
+
+private CheckUpButton()
+{
+	if (first = 0)
+	{
+		upButton.disabled = true
+	}
+	else
+	{
+		upButton.disabled = false;
+	}
+}
+
+private CheckUpButton()
+{
+	if (first = 0)
+	{
+		upButton.disabled = true
+	}
+	else
+	{
+		upButton.disabled = false;
+	}
+}
+
+private void UpdateList()
+{
+	for (int i = first; i < first + 5; i++)
+	{
+		if (i > moveList.Length)
+		{
+			Button.Text = null;
+		}
+		else
+		{
+			Button.Text = moveList.Get(i).moveName;
+		}
+	}
+}
